@@ -17,6 +17,7 @@ def update_profile_readme():
     return template.replace('{{ latest_diary }}', latest_diary).replace('{{ diary_list }}', diary_list_str)
 
 def get_diary_list():
+    base_url = "https://github.com/ljthub-2025/.github/tree/main/diaries"
     diary_list = []
     for file in os.listdir('diaries'):
         for diary in os.listdir(f'diaries/{file}'):
@@ -24,7 +25,7 @@ def get_diary_list():
                 with open(f'diaries/{file}/{diary}', 'r', encoding='utf-8') as f:
                     lines = f.readlines()
                     title = lines[0].strip('#').strip()
-                    diary_list.append({"title": title, "file": f'{file}/{diary}'})
+                    diary_list.append({"title": title, "file": f'{base_url}/{file}/{diary}'})
     return diary_list
 
 if __name__ == '__main__':
