@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 你好，我是林敬棠 (JingTang Lin)
+# 👋 你好，我是林敬棠 (Neo Lin)
 
 ### 💡 創意科技專家 | 🤖 AI 應用開發者 | 🎨 互動體驗設計師
 
