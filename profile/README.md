@@ -246,9 +246,9 @@
 
 畢業專題，使用 Microsoft HoloLens 2 進行混合實境開發與研究。
 
----
+<!-- --- -->
 
-## 📊 GitHub 統計
+<!-- ## 📊 GitHub 統計
 
 <div align="center">
 
@@ -258,7 +258,7 @@
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=LJT1109&theme=tokyonight&hide_border=true)
 
-</div>
+</div> -->
 
 ---
 
@@ -284,7 +284,7 @@ interests:
 
 💼 **LinkedIn:** Coming Soon
 
-🌐 **Portfolio:** Coming Soon
+🌐 **Portfolio:** [ljthub.com](https://www.ljthub.com)
 
 📝 **舊帳號參考:** [@LJT1109](https://github.com/LJT1109)
 
