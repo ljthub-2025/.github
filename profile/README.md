@@ -128,40 +128,28 @@
 - 📊 **教育大數據學分學程** - 台中教育大學
 - 🌐 **TOEIC 805 分**
 
----
 
-## 💼 精選專案
-
-### 🎭 燈光馬達影音播放系統開發
-**獨立研發** | 2024–2025
-
-打造一套跨設備的多媒體互動裝置控制系統，取代展演活動中需多名工作人員協調的手動操作流程。
-
-**技術亮點：**
-- 🎨 燈光控制：OpenCV + ArtNet 協議
-- ⚙️ 馬達控制：Modbus TCP 自訂封包
-- 🎬 多媒體控制：VLC HTTP API
-- 💻 系統架構：Electron + React + FastAPI + WebSocket
-
-**成果：** 實現單點中控操作，大幅提升同步性與穩定性
-
----
-
-### 👥 智慧活動營運整合平台
+### 👥 智慧活動營運平台  
 **主導開發** | 2024–2025
 
-為中大型活動現場提供即時人流統計與預測服務。
+為中大型活動現場提供統一後台管理、即時監控與人流辨識服務，整合專案管理、導覽地圖、物聯網模組及工作人員應用。
 
-**技術亮點：**
-- 🎯 **人流辨識精度提升**：誤差從 ±300% 降至 ±10%
-- 🧠 **AI 模型部署**：YOLOv12 + 自訓人頭分類模型（5,000+ 訓練圖像）
-- 📡 **網路解決方案**：5G 路由器 + 無線網橋，Uptime 達 99%
-- ☀️ **邊緣感測器**：ESP32 + LoRaWAN + 太陽能供電
-- 📈 **預測準確率**：從業界常規 60% 提升至 93%
+**技術亮點：**  
+- 🎯 **人流辨識精度提升**：透過數位孿生技術與WiFi probe偵測，提升辨識精度及系統穩定性  
+- 🧠 **數據生成與分析**：使用數位孿生生成訓練數據，輔助人流預測策略規劃  
+- 📡 **低功耗物聯網裝置**：ESP32 WiFi偵測器，結合太陽能供電與LoRaWAN通訊  
+- 💻 **前端系統遷移優化**：從Unity轉至React/React Native，降低耗電並提升使用者體驗  
+- ☁️ **彈性後端架構**：採用Google Cloud Serverless架構，確保高擴展性與穩定性  
 
-**技術棧：** YOLO, Firebase, React, 5G, LoRaWAN
+**技術棧：** React, React Native, GCP Serverless, ESP32, LoRaWAN, 數位孿生技術  
+
+<p align="center">
+  <img src="./LJTHUB 2583e62f3f2d80af8d4fe7991a65529c/2_.png" alt="主要架構圖" width="80%">
+</p>
+
 
 ---
+
 
 ### 🤖 AI 導覽員「璃兒」專案
 **主導開發者** | 2023–2024
@@ -177,34 +165,7 @@
 
 **成果：** 於高雄放視大賞吸引大量觀眾互動，現常態運作於校系大廳
 
----
-
-### 📱 工作人員行動應用程式
-**獨立研發** | 2024–2025
-
-為現場工作人員打造的效率工具 App。
-
-**核心功能：**
-- ⏰ 打卡系統
-- 📍 定位追蹤
-- 💬 個人/群組聊天室
-- 🔔 FCM 即時推播
-- 🗺️ 自訂地圖導航與 Marker 管理
-
-**技術棧：** React Native, Firebase, FCM
-
----
-
-### 🌦️ 邊緣氣象站 V2
-**獨立研發** | 2025
-
-優化重構既有氣象站架構，解決資料斷訊問題。
-
-**改進成果：**
-- 🖥️ 雙主機改為單機解決方案（Raspberry Pi / Upboard）
-- 📡 RS485 數據接收 + Firebase 即時同步
-- ⚠️ 錯誤監控與告警系統
-- 📊 **資料同步率：99.9%**
+🎥 [介紹影片](https://www.youtube.com/watch?v=fVlxuIWBKIE&list=PL6uwjsqyxhwTSxdpMhqhHHc-f77Ltc2Ej&index=7)
 
 ---
 
@@ -212,18 +173,12 @@
 **開發者** | 2024–2025
 
 為民政局燈區開發的「樂牽紅線、心動瞬間」互動裝置。
+以Yolo為骨幹的兩個互動裝置
+- 樂牽紅線：以辨識愛心觸發拍照，搭配後端線上取得照片，單身者亦可參與線上配對活動，根據擇偶條件進行隨機配對
+- 心動瞬間：以辨識拜拜手勢觸發動畫後，即可數位擲杯的祈福裝置，[吸引842位單身男女參加，助37對單身男女配對成功，展現月老牽紅線威力。](https://cdn.www.taichung.gov.tw/2935598/post)
 
-**成果：** 現場民眾體驗獲得一致好評
+**成果：** 現場民眾體驗獲得一致好評，
 🎥 [觀看展演影片](https://www.youtube.com/watch?v=0leRBPYnzak)
-
----
-
-### 🌸 2025 彩色海芋季網頁地圖導覽
-**獨立研發** | 2025
-
-根據顧問建議與企劃需求開發的溪海專案應用程式與網頁。
-
-**成果：** 完成平台功能交接與測試，確保系統穩定上線
 
 ---
 
@@ -239,12 +194,18 @@
 
 **技術：** Unity, OpenXR, VR 互動設計
 
+🎥 [113 年 VR 教材影片](https://youtu.be/2Ls3vzczqQc?list=PL6uwjsqyxhwTSxdpMhqhHHc-f77Ltc2Ej)
+🎥 [112 年 VR 教材影片](https://youtu.be/sWjb-KU0bnI?list=PL6uwjsqyxhwTSxdpMhqhHHc-f77Ltc2Ej)
+🎥 [111 年 VR 教材影片](https://www.youtube.com/watch?v=ZESwRr7AqBA&list=PL6uwjsqyxhwTSxdpMhqhHHc-f77Ltc2Ej&index=10)
+
 ---
 
 ### 🥽 HorizonVision (MR 應用開發)
 **開發者／組長** | 2022–2024
 
 畢業專題，使用 Microsoft HoloLens 2 進行混合實境開發與研究。
+
+🎥 [操作影片](https://youtu.be/dJg1ELYqn7Y?list=PL6uwjsqyxhwTSxdpMhqhHHc-f77Ltc2Ej)
 
 <!-- --- -->
 
